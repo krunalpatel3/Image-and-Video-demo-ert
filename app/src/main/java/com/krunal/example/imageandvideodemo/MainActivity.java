@@ -158,6 +158,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+
+
         Gson gson = new Gson();
         String jsonInString = gson.toJson(sortAndAddSections(list));
         Log.d("Result", "fetchGalleryImages- " + jsonInString);
